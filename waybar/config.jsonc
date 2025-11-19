@@ -1,0 +1,39 @@
+{
+    "height": 30,
+    "spacing": 5,
+    "margin": 5,
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "network",
+        "hyprland/language",
+        "clock"
+    ],
+    "network": {
+        "format-icons": [
+            "󰤟",
+            "󰤢",
+            "󰤥",
+            "󰤨"
+        ],
+        "format-wifi": "{icon} {essid}"
+    },
+    "hyprland/language": {
+        "format": " {short}"
+    },
+    "pulseaudio": {
+        "format-icons": [
+            "",
+            ""
+        ],
+        "format-muted": "  ",
+        "format": "{icon} {volume}",
+        "on-click": "pavucontrol",
+        "on-click-right": "pavucontrol"
+    }
+}
