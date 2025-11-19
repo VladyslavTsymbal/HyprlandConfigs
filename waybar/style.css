@@ -10,6 +10,7 @@ window#waybar {
 #pulseaudio,
 #language,
 #clock,
+#window,
 #network {
     border-radius: 16px;
     color: #ffffff;
@@ -27,14 +28,17 @@ window#waybar {
     border-radius: 16px;
 }
 
-#workspaces button.active {}
-
-.modules-center {
-    background-color: #212830;
-    border-radius: 8px;
-    color: #ffffff;
+#workspaces button.active {
+    background-color: #085664;
 }
 
-#window {
+window#waybar.empty #window {
+    background-color: transparent;
+}
+
+#tray {
+    border-radius: 16px;
+    color: #ffffff;
+    background-color: #212830;
     padding: 6px;
 }
